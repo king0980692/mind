@@ -1,0 +1,21 @@
+# dataset file
+./data/*
+
+# train_dir
+./train_dir/*
+./train_dir/
+
+*.zip
+
+*.tsv
+
+*.json
+# some temp data
+*.txt
+
+# python temp file
+*.pyc
+
+# __pycache__
+./DataTransformer/code/__pycache__/*
+./DataTransformer/*.class
