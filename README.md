@@ -1,4 +1,7 @@
+# :warning: this project has not done yet !!! :warning:
+
 # mind news recommdation using FM
+
 
 ## Data Transformer
 
