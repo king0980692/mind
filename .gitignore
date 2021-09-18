@@ -12,6 +12,7 @@
 *.json
 # some temp data
 *.txt
+!truth.txt
 
 # python temp file
 *.pyc
