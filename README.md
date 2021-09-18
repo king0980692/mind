@@ -1,49 +1,10 @@
-# :trollface: this project has not done yet !!! :warning:
+# MIND news recommadation using FM
 
-# MIND
+## Data transformation and encoding
 
-## Dataset prepare
+Before starting to feed data into model, we need to do some preprocess for MIND news dataset.
 
-you can use these command to donwload the large MIND dataset or small MIND dataset
+:bulb: Go to see the *encoderder* submodule to get more information 
 
-### Large MIND dataset
 
-#### train
-
-```bash
-wget https://mind201910small.blob.core.windows.net/release/MINDlarge_train.zip
-```
-
-#### dev(validation)
-
-```bash=
-wget https://mind201910small.blob.core.windows.net/release/MINDlarge_dev.zip
-```
-
-#### test
-
-```bash=
-wget https://mind201910small.blob.core.windows.net/release/MINDlarge_test.zip
-```
-
----
-
-### Small MIND dataset
-
-#### train
-
-```bash
-wget https://mind201910small.blob.core.windows.net/release/MINDsmall_train.zip
-```
-
-#### dev(validation)
-
-```bash=
-wget https://mind201910small.blob.core.windows.net/release/MINDsmall_dev.zip
-```
-
-#### test
-
-```bash=
-wget https://mind201910small.blob.core.windows.net/release/MINDsmall_test.zip
-```
+## Folder structure
