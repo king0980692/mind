@@ -26,6 +26,8 @@ wget https://mind201910small.blob.core.windows.net/release/MINDlarge_dev.zip
 wget https://mind201910small.blob.core.windows.net/release/MINDlarge_test.zip
 ```
 
+---
+
 ### Small MIND dataset
 
 #### train
