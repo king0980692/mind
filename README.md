@@ -1,13 +1,47 @@
 # :trollface: this project has not done yet !!! :warning:
 
-# mind news recommdation using FM
+# MIND
 
+## Dataset prepare
 
-## Data Transformer
+you can use these command to donwload the large MIND dataset or small MIND dataset
 
-You need to transform the mind dataset to general csv-like file first. 
+### Large MIND dataset
 
-Go DataTransform folder first
+#### train
 
-## run.sh
-run the run.sh bash script.
+```bash
+wget https://mind201910small.blob.core.windows.net/release/MINDlarge_train.zip
+```
+
+#### dev(validation)
+
+```bash=
+wget https://mind201910small.blob.core.windows.net/release/MINDlarge_dev.zip
+```
+
+#### test
+
+```bash=
+wget https://mind201910small.blob.core.windows.net/release/MINDlarge_test.zip
+```
+
+### Small MIND dataset
+
+#### train
+
+```bash
+wget https://mind201910small.blob.core.windows.net/release/MINDsmall_train.zip
+```
+
+#### dev(validation)
+
+```bash=
+wget https://mind201910small.blob.core.windows.net/release/MINDsmall_dev.zip
+```
+
+#### test
+
+```bash=
+wget https://mind201910small.blob.core.windows.net/release/MINDsmall_test.zip
+```
