@@ -24,4 +24,5 @@ Using the **official test data** to evaulate the model result, you can upload yo
 
 ### Script
 💡 For both part , I write two script to run the experiment :  `dev_run.sh` and `test_run.sh` 
+
 Check them for detail !!
