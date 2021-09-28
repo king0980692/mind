@@ -9,8 +9,8 @@
 git clone --recurse-submodules git@github.com:king0980692/mind.git
 ```
 
-## Folder structure
-![Folder structure](img.png)
+## This Repo Structure
+![Repo Structure](img.png)
 
 
 ## Usage
