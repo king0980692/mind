@@ -1,8 +1,9 @@
 # MIND news recommadation using FM
 
 ## Clone this repo
+```bash
 git clone --recurse-submodules git@github.com:king0980692/mind.git
-
+```
 
 ## Data transformation and encoding
 
