@@ -1,22 +1,22 @@
-# dataset file
-./data/*
-
 # train_dir
-./train_dir/*
 ./train_dir/
+./train_dir/*
 
-*.zip
+# dev_dir
+./dev_dir/
+./dev_dir/*
+#
+# test_dir
+./test_dir/
+./test_dir/*
 
-*.tsv
-
-*.json
 # some temp data
+*.zip
+*.tsv
 *.txt
-!truth.txt
-
+*.pkl
+*.bin
+*.model
 # python temp file
 *.pyc
-
-# __pycache__
-./DataTransformer/code/__pycache__/*
-./DataTransformer/*.class
+*.class
