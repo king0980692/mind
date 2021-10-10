@@ -1,4 +1,5 @@
 import pickle
+from encoderder.utils import utils 
 
 class encoder:
     
@@ -30,6 +31,11 @@ class encoder:
             return self.table['null']
 
 if __name__ == '__main__':
+
+    f = utils.readlines_spinner('./dataset2.tsv')
+    for line in f:
+        print(line)
+        exit()
     all_encoder = {}
 
     a_1 = set(['a','b','c'])

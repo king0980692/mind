@@ -1,6 +1,6 @@
 echo "prepare the data for xlearn fm"
 
-python3 ./encoderder/main.py -c ./encoderder/config/dev_hiscat.json
+python3 ./encoderder/main.py -c ./encoderder/config/dev_wiz1.json
 
 ~/xlearn/build/xlearn_train ./train_dir/train.txt -s 1 --disk 
 
